@@ -10,10 +10,10 @@ int main() {
 int i; 
 int *v;
 char *nome;
-nome = (char*)malloc(sizeof(char)*100); 
+//nome = (char*)malloc(sizeof(char)*100); 
 
- gets(nome);
- imprimeNome(nome);
+//gets(nome);
+//imprimeNome(nome);
  
 // 'v' é um ponteiro para uma área que tem 10 inteiros
 v = (int*)malloc(sizeof(int)*10); // 'v' funciona exatamente como um vetor 
